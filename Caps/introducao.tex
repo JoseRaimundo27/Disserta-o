@@ -1,0 +1,75 @@
+\chapter{Introdução}
+\label{chap:intro}.
+
+\nomenclature[A]{DES}{Simulação a Eventos Discretos}
+\nomenclature[A]{ABM}{Modelagem Baseada em Agentes}
+
+No entanto, para modelar sistemas altamente dinâmicos, a adoção de um único paradigma de simulação pode ser insuficiente. Para solucionar esse problema, emprega-se a Simulação Híbrida. A modelagem híbrida utiliza dois ou mais modelos para representar o comportamento de um sistema, integrando abordagens baseadas em dados e em princípios da física \cite{hybridmodeling}. A Simulação a Eventos Discretos (DES) e a Modelagem Baseada em Agentes (ABM) são abordagens fundamentais e complementares na simulação de sistemas. Enquanto a DES estrutura o modelo como um fluxo sequencial de processos e atividades cronologicamente ordenados, a ABM foca no comportamento descentralizado de entidades individuais autônomas (agentes) regidas por regras lógicas de decisão \cite{Macal2009, Banks2005}.
+
+Aliado ao conceito de simulação, uma definição importante é a de Gêmeos Digitais. Segundo \citeonline{aeronautica}, um Gêmeo Digital é definido como um conjunto de construções virtuais de informação que imita a estrutura, o contexto e o comportamento de um ativo físico individual ou de um grupo de ativos físicos, sendo atualizado dinamicamente com dados do seu gêmeo físico ao longo do seu ciclo de vida e servindo de base para decisões que geram valor.
+
+Essas tecnologias têm potencial para solucionar problemas da construção civil, já que, segundo \citeonline{oesterreich2016digitisation}, a indústria da construção civil ainda se encontra atrasada em relação a outros setores, como o de manufatura, em termos de digitalização e automação. Os canteiros de obras sofrem com a natureza inerentemente imprevisível do trabalho, marcada por variações, como flutuações na produtividade da mão de obra, interrupções na cadeia de suprimentos e retrabalhos, o que invalida constantemente as suposições feitas no início do projeto \cite{wambeke2011variation}. É justamente neste ponto que a criação de um modelo do canteiro de obras em um mundo virtual auxilia na compreensão do comportamento do sistema, permitindo que diferentes cenários de projeto sejam examinados antes da fase de implementação, o que se reflete em otimização de produção e redução de custos \cite{hybridframework}.
+
+É neste cenário de alta demanda por controle dinâmico e redução de falhas que se insere o sistema construtivo de paredes de concreto moldadas in loco. Esse sistema popularizou-se no Brasil na última década, impulsionado por programas habitacionais governamentais como o "Minha Casa Minha Vida"\ e o "Casa Verde e Amarela" \cite{tesecarol}. O método construtivo adotado para esse sistema se baseia na utilização de fôrmas metálicas removíveis e moduladas, frequentemente de alumínio, que permitem a execução de estruturas monolíticas de concreto armado de forma padronizada, conforme definido pela norma NBR 16055 \cite{abnt}.
+
+
+
+
+\section{Justificativa}
+\label{sec:justificativa}
+
+Historicamente, a indústria da construção civil enfrenta desafios para modernizar sua gestão operacional. Segundo \citeonline{cheng}, as informações relevantes dos canteiros de obras são frequentemente comunicadas por meio de documentos em papel ou de forma verbal. Essa dependência de métodos manuais e analógicos de comunicação gera gargalos logísticos e atrasos na tomada de decisão gerencial.
+
+Para superar as desvantagens das abordagens tradicionais e lidar com a dinamicidade do canteiro de obras, a implementação da modelagem híbrida apresenta-se como uma solução promissora. De acordo com \citeonline{hybridmodeling}, a adoção dessa técnica permite integrar diferentes métodos, aprimorando significativamente a precisão e a confiabilidade da modelagem do sistema. Contudo, a geração de dados puramente quantitativos pode não ser suficiente para a gestão prática diária na obra.
+
+Como aponta \citeonline{cheng}, para permitir a tomada de decisões mais oportunas e precisas durante a construção, atendendo a múltiplos níveis hierárquicos, escalas de tempo e partes interessadas, é necessário um entendimento mais profundo das informações em tempo real e, fundamentalmente, em um formato visualmente atraente. Além disso, o rastreamento e a visualização de dados dinâmicos em um ambiente virtual realista trazem benefícios operacionais indispensáveis para a equipe de projeto \cite{cheng2012}.
+
+Ademais, há, também,  o impacto direto das falhas operacionais no fluxo produtivo. Conforme afirma \citeonline{kechida}, cada falha ou defeito pode levar a paralisações ou uma ruptura do serviço e, consequentemente, a uma redução da produção da planta. No sistema de paredes de concreto, onde o ciclo de execução é extremamente rápido e repetitivo, a não detecção de uma inconsistência pode comprometer toda qualidade de produção do canteiro. Nesse contexto, a aplicação da diagnose de falhas torna-se um diferencial estratégico, pois, a detecção precoce e a correção de falhas podem ajudar a evitar as paradas dos sistemas e danos materiais \cite{mestradoDudu}.
+
+
+Sendo assim, este trabalho justifica-se pela necessidade de preencher essa lacuna tecnológica, analítica e visual. A proposta de integrar a robustez matemática da diagnose de falhas em SEDs, com a Simulação Híbrida como processo de criação de um Gêmeo Digital realista, fornece aos gestores uma ferramenta avançada de supervisão. Essa abordagem substitui o planejamento estático e o controle manual por um monitoramento dinâmico e visualmente imersivo, capaz de identificar anomalias antes que estas resultem em desperdícios financeiros ou atrasos irreversíveis na execução de paredes de concreto. 
+
+
+\section{Objetivos}
+\label{sec:objetivos}
+O objetivo geral deste trabalho é propor (um sistema de monitoramento e progressão de obras usando inteligência artificial, para gestão de obras de infraestrutura - ou ponte, visando...)  
+
+Para alcançar este propósito, definem-se os seguintes objetivos específicos:
+
+\begin{itemize}
+	\item Mapear a captura de dados, estabelecer o protocolo de aquisição de imagens fotogramétricas (?), processamento e geração de nuvens de pontos densas de obras de pontes (as-built), sintetização de nuvem de pontos e extração de informações do modelo BIM, talvez fazer uma discussão também sobre o georreferenciamento
+	
+	\item Aplicar Visão Computacional / Deep Learning (RANDLANET) para implementar/adaptar algoritmos de IA para segmentar (ou remover ruído) e a segmentação dos elementos estruturais da ponte a partir das nuvens de pontos. Todas as etapas da metodologia: Data collection, preparation…
+	
+	\item Executar a verificação comparativa: utilizar algoritmos (nesse caso falo do obbp-icp) para integrar e alinhar a nuvem de pontos processada ao modelo 3D/4D BIM para identificar avanço, atrasos ou discrepâncias de execução.
+	\item Mensurar a acurácia geométrica do alinhamento, o tempo computacional e o esforço operacional do método proposto, analisando sua aplicabilidade prática frente aos processos tradicionais de medição visual e manual.
+	
+\end{itemize}
+
+\section{Organização do Trabalho}
+\label{sec:organizacao}
+Este trabalho está estruturado em seis capítulos, organizados da seguinte forma:
+
+O Capítulo \ref{chap:intro} apresenta a introdução e contextualização do tema, a justificativa para a realização da pesquisa, bem como os objetivos propostos.
+
+O Capítulo \ref{chap:revisao} dedica-se à revisão da literatura, abordando os conceitos fundamentais sobre Gêmeos Digitais, Simulação Híbrida e SED, com foco na teoria de diagnose de falhas em autômatos finitos, além de descrever as ferramentas AnyLogic e Omniverse.
+
+O Capítulo \ref{chap:metodologia} descreve a metodologia da pesquisa, detalhando as etapas de construção do modelo conceitual, a modelagem da planta e do diagnosticador de falhas, a coleta de dados e a implementação computacional.
+
+O Capítulo \ref{chap:resultados} expõe o desenvolvimento e validação do modelo, a confecção da simulação e a síntese do autômato diagnosticador implementado.
+
+O Capítulo \ref{chap:discussao} faz a discussão sobre o resultado da simulação, bem como do diagnosticador, realizando análise de cenários e impactos da integração das ferramentas na gestão do sistema construtivo de paredes de concreto e a eficácia da diagnose na redução de retrabalhos.
+
+Por fim, o Capítulo \ref{chap:conclusao} apresenta as considerações finais, as limitações encontradas ao longo do estudo e as sugestões para trabalhos futuros.
+
+\section{Contexto da Pesquisa}
+A pesquisa desenvolvida neste Trabalho de Conclusão de Curso está inserida nas atividades do Grupo de Pesquisa e Extensão em Gestão e Tecnologia das Construções (GETEC), vinculado à Escola Politécnica da Universidade Federal da Bahia (UFBA).
+
+O trabalho foi realizado no contexto de um projeto de pesquisa em nível de doutorado, conduzido por \citeonline{tesecarol}, com foco no desenvolvimento de um sistema de Gêmeo Digital para gerenciamento e controle de recursos físicos em sistemas construtivos de parede de concreto. O presente estudo se integra como contribuição complementar, sob orientações do Professor Carlos Eduarno Viana Nunes. Durante o desenvolvimento desta pesquisa, eu atuei como bolsista de Iniciação Tecnológica e Industrial (ITI),sob orientação da Professora Dayana Bastos Costa e em colaboração com a Universidade de São Paulo (USP), representada pelo Professor Fabiano Rogerio Corrêa. Minha participação deu continuidade no trabalho iniciado pelo bolsista Caio Vinicios Borges de Souza, onde atuei auxiliando na pesquisa e na produção do trabalho, com fomento do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
+
+A “Empresa A” foi selecionada como parceira deste estudo. Trata-se de uma empresa brasileira de médio porte do setor da construção civil, atuante no estado da Bahia desde 1987 e parceira do GETEC desde 2019. A empresa participou do projeto no contexto do programa MAI/DAI do CNPq, incentivando iniciativas de inovação tecnológica e melhoria dos processos de gestão. O canteiro de obras analisado pertence a um empreendimento residencial vinculado ao programa habitacional "Minha Casa, Minha Vida", servindo como base para as observações, coleta de informações e desenvolvimento das pesquisas adotadas neste trabalho.
+
+O uso de ferramentas de Inteligência Artificial Generativa utilizadas neste trabalho ocorreu em conformidade às normas do Guia para Uso Ético e
+Responsável da Inteligência Artificial Generativa na
+Universidade Federal da Bahia, disponível em \cite{ufba2025ia}.
+

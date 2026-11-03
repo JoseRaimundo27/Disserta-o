@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: references.bib
+Warning--I didn't find a database entry for "hybridmodeling"
+Warning--I didn't find a database entry for "aeronautica"
+Warning--I didn't find a database entry for "oesterreich2016digitisation"
+Warning--I didn't find a database entry for "wambeke2011variation"
+Warning--I didn't find a database entry for "hybridframework"
+Warning--I didn't find a database entry for "tesecarol"
+Warning--I didn't find a database entry for "abnt"
+Warning--I didn't find a database entry for "cheng"
+Warning--I didn't find a database entry for "cheng2012"
+Warning--I didn't find a database entry for "kechida"
+Warning--I didn't find a database entry for "mestradoDudu"
+Warning--I didn't find a database entry for "ufba2025ia"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 8 entries,
+            6714 wiz_defined-function locations,
+            1229 strings with 9824 characters,
+and the built_in function-call counts, 3849 in all, are:
+= -- 389
+> -- 68
+< -- 5
++ -- 75
+- -- 23
+* -- 205
+:= -- 498
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 40
+chr.to.int$ -- 18
+cite$ -- 2
+duplicate$ -- 113
+empty$ -- 401
+format.name$ -- 94
+if$ -- 1001
+int.to.chr$ -- 5
+int.to.str$ -- 3
+missing$ -- 100
+newline$ -- 16
+num.names$ -- 10
+pop$ -- 97
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 404
+stack$ -- 1
+substring$ -- 133
+swap$ -- 45
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 0
+while$ -- 17
+width$ -- 0
+write$ -- 39
+(There were 12 warnings)
