@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.22)  3 NOV 2026 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.22)  3 NOV 2026 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,76 +1434,32 @@ No file main.nls.
 
 ] (./main.toc) [9
 
-] (./Caps/introducao.tex
-
-LaTeX Warning: Citation `hybridmodeling' on page 10 undefined on input line 7.
-
-
-LaTeX Warning: Citation `aeronautica' on page 10 undefined on input line 9.
-
-
-LaTeX Warning: Citation `oesterreich2016digitisation' on page 10 undefined on i
-nput line 11.
-
-
-LaTeX Warning: Citation `wambeke2011variation' on page 10 undefined on input li
-ne 11.
-
-
-LaTeX Warning: Citation `hybridframework' on page 10 undefined on input line 11
-.
-
-
-LaTeX Warning: Citation `tesecarol' on page 10 undefined on input line 13.
-
-
-LaTeX Warning: Citation `abnt' on page 10 undefined on input line 13.
-
-
-LaTeX Warning: Citation `cheng' on page 10 undefined on input line 21.
-
-[10
+] (./Caps/introducao.tex [10
 
 
 ]
 
-LaTeX Warning: Citation `hybridmodeling' on page 11 undefined on input line 23.
+LaTeX Warning: Citation `tesecarol' on page 11 undefined on input line 48.
 
+[11{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
+LaTeX Warning: Citation `ufba2025ia' on page 12 undefined on input line 54.
 
-LaTeX Warning: Citation `cheng' on page 11 undefined on input line 25.
-
-
-LaTeX Warning: Citation `cheng2012' on page 11 undefined on input line 25.
-
-
-LaTeX Warning: Citation `kechida' on page 11 undefined on input line 27.
-
-
-LaTeX Warning: Citation `mestradoDudu' on page 11 undefined on input line 27.
-
-[11] [12{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-LaTeX Warning: Citation `tesecarol' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `ufba2025ia' on page 13 undefined on input line 74.
-
-) (./Caps/revisao.tex [13]) (./Caps/metodologia.tex [14
+) (./Caps/revisao.tex [12]) (./Caps/metodologia.tex [13
 
 ])
-(./Caps/resultados.tex [15
+(./Caps/resultados.tex [14
 
-]) (./Caps/discussao.tex [16
+]) (./Caps/discussao.tex [15
 
 ]) (./Caps/conclusao.tex
-[17
+[16
 
-]) (./main.bbl [18
+]) (./main.bbl [17
 
 ]
 bibitemlist
-) [19
+) [18
 
 ]
 \tf@lof=\write6
@@ -1531,13 +1487,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34676 strings out of 474222
- 635912 string characters out of 5748733
- 1933975 words of memory out of 5000000
- 56225 multiletter control sequences out of 15000+600000
+ 34647 strings out of 474222
+ 635369 string characters out of 5748733
+ 1934975 words of memory out of 5000000
+ 56198 multiletter control sequences out of 15000+600000
  576073 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,117p,1039b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,117p,1005b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrb1200.pfb
@@ -1547,10 +1503,10 @@ onts/type1/public/cm-super/sfrb1728.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1200.pfb>
-Output written on main.pdf (20 pages, 241676 bytes).
+Output written on main.pdf (19 pages, 238143 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

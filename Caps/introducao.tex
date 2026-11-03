@@ -1,34 +1,19 @@
+\nomenclature[A]{IA}{Inteligência Artificial}
+\nomenclature[A]{OAE}{Obras de Artes Especiais}
+\nomenclature[A]{CV}{Visão Computacional}
+
 \chapter{Introdução}
 \label{chap:intro}.
+O monitoramento de progresso é um dos elos fundamentais para gestão de projetos, auxiliando na conclusão bem sucedida da construção de edificações e infraestruturas (Pal et al., 2023). Na construção de Obras de Arte Especiais (OAE), como as pontes, as condições diferem significativamente das edificações convencionais, caracterizando-se por processos altamente setorizados, distribuição espacial discreta e uso intensivo de componentes pré-fabricados (Zhang, 2023). Embora essas estruturas apresentem padrões geométricos repetitivos e similares, a extensão do canteiro e a complexidade logística impõem desafios severos à gestão e ao acompanhamento físico do projeto (Zhang, 2023).
 
-\nomenclature[A]{DES}{Simulação a Eventos Discretos}
-\nomenclature[A]{ABM}{Modelagem Baseada em Agentes}
-
-No entanto, para modelar sistemas altamente dinâmicos, a adoção de um único paradigma de simulação pode ser insuficiente. Para solucionar esse problema, emprega-se a Simulação Híbrida. A modelagem híbrida utiliza dois ou mais modelos para representar o comportamento de um sistema, integrando abordagens baseadas em dados e em princípios da física \cite{hybridmodeling}. A Simulação a Eventos Discretos (DES) e a Modelagem Baseada em Agentes (ABM) são abordagens fundamentais e complementares na simulação de sistemas. Enquanto a DES estrutura o modelo como um fluxo sequencial de processos e atividades cronologicamente ordenados, a ABM foca no comportamento descentralizado de entidades individuais autônomas (agentes) regidas por regras lógicas de decisão \cite{Macal2009, Banks2005}.
-
-Aliado ao conceito de simulação, uma definição importante é a de Gêmeos Digitais. Segundo \citeonline{aeronautica}, um Gêmeo Digital é definido como um conjunto de construções virtuais de informação que imita a estrutura, o contexto e o comportamento de um ativo físico individual ou de um grupo de ativos físicos, sendo atualizado dinamicamente com dados do seu gêmeo físico ao longo do seu ciclo de vida e servindo de base para decisões que geram valor.
-
-Essas tecnologias têm potencial para solucionar problemas da construção civil, já que, segundo \citeonline{oesterreich2016digitisation}, a indústria da construção civil ainda se encontra atrasada em relação a outros setores, como o de manufatura, em termos de digitalização e automação. Os canteiros de obras sofrem com a natureza inerentemente imprevisível do trabalho, marcada por variações, como flutuações na produtividade da mão de obra, interrupções na cadeia de suprimentos e retrabalhos, o que invalida constantemente as suposições feitas no início do projeto \cite{wambeke2011variation}. É justamente neste ponto que a criação de um modelo do canteiro de obras em um mundo virtual auxilia na compreensão do comportamento do sistema, permitindo que diferentes cenários de projeto sejam examinados antes da fase de implementação, o que se reflete em otimização de produção e redução de custos \cite{hybridframework}.
-
-É neste cenário de alta demanda por controle dinâmico e redução de falhas que se insere o sistema construtivo de paredes de concreto moldadas in loco. Esse sistema popularizou-se no Brasil na última década, impulsionado por programas habitacionais governamentais como o "Minha Casa Minha Vida"\ e o "Casa Verde e Amarela" \cite{tesecarol}. O método construtivo adotado para esse sistema se baseia na utilização de fôrmas metálicas removíveis e moduladas, frequentemente de alumínio, que permitem a execução de estruturas monolíticas de concreto armado de forma padronizada, conforme definido pela norma NBR 16055 \cite{abnt}.
+Os métodos tradicionais de monitoramento do progresso se baseiam em registros manuais, inspeções \textit{in loco} e atualizações em planilhas ou papel (Pal et al., 2023). Nesse sentido, essa abordagem apresenta desvantagens críticas: é excessivamente lenta, trabalhosa, propensa a erros humanos e influenciada pela subjetividade dos inspetores (Qureshi et al., 2023). Devido à incapacidade de abranger a totalidade do canteiro com alta frequência, os dados coletados ficam rapidamente desatualizados, tornando a tomada de decisão reativa e propiciando atrasos e estouros de orçamento (Reja et al., 2022). Ademais, a simples captura visual do canteiro sem processamento automatizado não soluciona o problema, pois apenas transfere o gargalo operacional do campo para o escritório.  
 
 
 
-
-\section{Justificativa}
-\label{sec:justificativa}
-
-Historicamente, a indústria da construção civil enfrenta desafios para modernizar sua gestão operacional. Segundo \citeonline{cheng}, as informações relevantes dos canteiros de obras são frequentemente comunicadas por meio de documentos em papel ou de forma verbal. Essa dependência de métodos manuais e analógicos de comunicação gera gargalos logísticos e atrasos na tomada de decisão gerencial.
-
-Para superar as desvantagens das abordagens tradicionais e lidar com a dinamicidade do canteiro de obras, a implementação da modelagem híbrida apresenta-se como uma solução promissora. De acordo com \citeonline{hybridmodeling}, a adoção dessa técnica permite integrar diferentes métodos, aprimorando significativamente a precisão e a confiabilidade da modelagem do sistema. Contudo, a geração de dados puramente quantitativos pode não ser suficiente para a gestão prática diária na obra.
-
-Como aponta \citeonline{cheng}, para permitir a tomada de decisões mais oportunas e precisas durante a construção, atendendo a múltiplos níveis hierárquicos, escalas de tempo e partes interessadas, é necessário um entendimento mais profundo das informações em tempo real e, fundamentalmente, em um formato visualmente atraente. Além disso, o rastreamento e a visualização de dados dinâmicos em um ambiente virtual realista trazem benefícios operacionais indispensáveis para a equipe de projeto \cite{cheng2012}.
-
-Ademais, há, também,  o impacto direto das falhas operacionais no fluxo produtivo. Conforme afirma \citeonline{kechida}, cada falha ou defeito pode levar a paralisações ou uma ruptura do serviço e, consequentemente, a uma redução da produção da planta. No sistema de paredes de concreto, onde o ciclo de execução é extremamente rápido e repetitivo, a não detecção de uma inconsistência pode comprometer toda qualidade de produção do canteiro. Nesse contexto, a aplicação da diagnose de falhas torna-se um diferencial estratégico, pois, a detecção precoce e a correção de falhas podem ajudar a evitar as paradas dos sistemas e danos materiais \cite{mestradoDudu}.
-
-
-Sendo assim, este trabalho justifica-se pela necessidade de preencher essa lacuna tecnológica, analítica e visual. A proposta de integrar a robustez matemática da diagnose de falhas em SEDs, com a Simulação Híbrida como processo de criação de um Gêmeo Digital realista, fornece aos gestores uma ferramenta avançada de supervisão. Essa abordagem substitui o planejamento estático e o controle manual por um monitoramento dinâmico e visualmente imersivo, capaz de identificar anomalias antes que estas resultem em desperdícios financeiros ou atrasos irreversíveis na execução de paredes de concreto. 
-
+ Nesse cenário, a integração de ferramentas como a Modelagem da Informação da Construção (BIM) a técnicas de Visão Computacional (CV) em Inteligência Artificia (IA)l tem se consolidado como a via mais eficiente para o monitoramento automatizado (Pal et al., 2023). O uso de \textit{Deep Learning} permite processar dados visuais complexos, como nuvens de pontos, comparando o modelo planejado \textit{as-planned} com a execução real \textit{as-built} para extrair informações objetivas de avanço (Reja et al., 2022; Braun et al., 2020).  
+ FALTOU FALAR E CITAR BENEFICIOS DA FOTOGRAMETRIA. 
+ 
+ Apesar desses avanços, a literatura e as aplicações de monitoramento automatizado ainda concentram-se majoritariamente em edificações verticais, revelando uma lacuna no desenvolvimento de fluxos adaptados às especificidades geométricas e operacionais das pontes. Portanto, este trabalho propõe um fluxo semi-automatizado para o monitoramento de pontes, integrando fotogrametria, eliminação de ruídos de nuvens de pontos por \textit{deep learning} (RandLA-Net) e algoritmos de alinhamento geométrico (OBB-ICP) ao modelo BIM 4D, visando eliminar a carga manual, fornecer dados acionáveis aos gestores e mitigar ineficiências construtivas.
 
 \section{Objetivos}
 \label{sec:objetivos}
@@ -52,13 +37,13 @@ Este trabalho está estruturado em seis capítulos, organizados da seguinte form
 
 O Capítulo \ref{chap:intro} apresenta a introdução e contextualização do tema, a justificativa para a realização da pesquisa, bem como os objetivos propostos.
 
-O Capítulo \ref{chap:revisao} dedica-se à revisão da literatura, abordando os conceitos fundamentais sobre Gêmeos Digitais, Simulação Híbrida e SED, com foco na teoria de diagnose de falhas em autômatos finitos, além de descrever as ferramentas AnyLogic e Omniverse.
+O Capítulo \ref{chap:revisao} dedica-se à revisão da literatura, abordando conceitos fundamentais sobre
 
-O Capítulo \ref{chap:metodologia} descreve a metodologia da pesquisa, detalhando as etapas de construção do modelo conceitual, a modelagem da planta e do diagnosticador de falhas, a coleta de dados e a implementação computacional.
+O Capítulo \ref{chap:metodologia} descreve a metodologia da pesquisa, detalhando as etapas de construção do modelo conceitual, a modelagem da 
 
-O Capítulo \ref{chap:resultados} expõe o desenvolvimento e validação do modelo, a confecção da simulação e a síntese do autômato diagnosticador implementado.
+O Capítulo \ref{chap:resultados} expõe o desenvolvimento e validação do modelo,
 
-O Capítulo \ref{chap:discussao} faz a discussão sobre o resultado da simulação, bem como do diagnosticador, realizando análise de cenários e impactos da integração das ferramentas na gestão do sistema construtivo de paredes de concreto e a eficácia da diagnose na redução de retrabalhos.
+O Capítulo \ref{chap:discussao} faz a discussão sobre o resultado da 
 
 Por fim, o Capítulo \ref{chap:conclusao} apresenta as considerações finais, as limitações encontradas ao longo do estudo e as sugestões para trabalhos futuros.
 
