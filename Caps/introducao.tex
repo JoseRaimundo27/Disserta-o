@@ -10,10 +10,17 @@ Os métodos tradicionais de monitoramento do progresso se baseiam em registros m
 
 
 
- Nesse cenário, a integração de ferramentas como a Modelagem da Informação da Construção (BIM) a técnicas de Visão Computacional (CV) em Inteligência Artificia (IA)l tem se consolidado como a via mais eficiente para o monitoramento automatizado (Pal et al., 2023). O uso de \textit{Deep Learning} permite processar dados visuais complexos, como nuvens de pontos, comparando o modelo planejado \textit{as-planned} com a execução real \textit{as-built} para extrair informações objetivas de avanço (Reja et al., 2022; Braun et al., 2020).  
- FALTOU FALAR E CITAR BENEFICIOS DA FOTOGRAMETRIA. 
+ Nesse cenário, a integração de ferramentas como a Modelagem da Informação da Construção (BIM) a técnicas de Visão Computacional (CV) em Inteligência Artificia (IA)l tem se consolidado como a via mais eficiente para o monitoramento automatizado (Pal et al., 2023). O uso de \textit{Deep Learning} permite processar dados visuais complexos, como nuvens de pontos, comparando o modelo planejado \textit{as-planned} com a execução real \textit{as-built} para extrair informações objetivas de IAavanço (Reja et al., 2022; Braun et al., 2020).  
+ FALTOU FALAR E CITAR BENEFICIOS DA FOTOGRAMETRIA.
+ 
+FALTOU FALAR DE INTEROPERABILIDADE 
+ 
+ 
+SURGIU DO NADA O ASPLANNED E ASBUILT
  
  Apesar desses avanços, a literatura e as aplicações de monitoramento automatizado ainda concentram-se majoritariamente em edificações verticais, revelando uma lacuna no desenvolvimento de fluxos adaptados às especificidades geométricas e operacionais das pontes. Portanto, este trabalho propõe um fluxo semi-automatizado para o monitoramento de pontes, integrando fotogrametria, eliminação de ruídos de nuvens de pontos por \textit{deep learning} (RandLA-Net) e algoritmos de alinhamento geométrico (OBB-ICP) ao modelo BIM 4D, visando eliminar a carga manual, fornecer dados acionáveis aos gestores e mitigar ineficiências construtivas.
+\section{Justificativa}
+
 
 \section{Objetivos}
 \label{sec:objetivos}
@@ -22,12 +29,15 @@ O objetivo geral deste trabalho é propor (um sistema de monitoramento e progres
 Para alcançar este propósito, definem-se os seguintes objetivos específicos:
 
 \begin{itemize}
-	\item Mapear a captura de dados, estabelecer o protocolo de aquisição de imagens fotogramétricas (?), processamento e geração de nuvens de pontos densas de obras de pontes (as-built), sintetização de nuvem de pontos e extração de informações do modelo BIM, talvez fazer uma discussão também sobre o georreferenciamento
+	\item Mapear a captura de dados, estabelecer o protocolo de aquisição de imagens fotogramétricas (?), A do BIM entra a do asbuilt(gerando) NÃO processamento e geração de nuvens de pontos densas de obras de pontes (as-built), sintetização de nuvem de pontos e extração de informações do modelo BIM, talvez fazer uma discussão também sobre o georreferenciamento´
 	
-	\item Aplicar Visão Computacional / Deep Learning (RANDLANET) para implementar/adaptar algoritmos de IA para segmentar (ou remover ruído) e a segmentação dos elementos estruturais da ponte a partir das nuvens de pontos. Todas as etapas da metodologia: Data collection, preparation…
+	\item Aplicar Visão Computacional / Deep Learning (RANDLANET) para implementar/adaptar algoritmos de IA para segmentar (ou remover ruído) e a segmentação dos elementos estruturais da ponte a partir das nuvens de pontos. Todas as etapas da metodologia: Data collection, preparation… é objetivo ou etapa? TESTAR E VALIDAR USO DE IA PARA .... com uso de tais metricas, sob tal metodologia
 	
-	\item Executar a verificação comparativa: utilizar algoritmos (nesse caso falo do obbp-icp) para integrar e alinhar a nuvem de pontos processada ao modelo 3D/4D BIM para identificar avanço, atrasos ou discrepâncias de execução.
+	\item Executar a verificação comparativa: utilizar algoritmos (nesse caso falo do obbp-icp) para integrar e alinhar a nuvem de pontos processada ao modelo 3D/4D BIM para identificar avanço, atrasos ou discrepâncias de execução. TESTAR E VALDAR ALGORITMOS DE REGISTRO AUTOMATICOS
+	
 	\item Mensurar a acurácia geométrica do alinhamento, o tempo computacional e o esforço operacional do método proposto, analisando sua aplicabilidade prática frente aos processos tradicionais de medição visual e manual.
+	
+	\item objetivos secundarios: criar um sistema integrado, aplicação em banco dedados, definir requisitos tecnologicos para xeculção do modelo, requisitos de interoperailidade, IDENTIFICAR LIMITAÇÕES COMPUTACIONAIS
 	
 \end{itemize}
 

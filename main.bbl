@@ -5,15 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Banks et al. 2005]{Banks2005}
-\abntrefinfo{Banks et al.}{BANKS et al.}{2005}
-{BANKS, J. et al. \textbf{Discrete-Event System Simulation}. 4. ed. Upper
-  Saddle River: Prentice Hall, 2005.}
-
-\bibitem[Macal e North 2009]{Macal2009}
-\abntrefinfo{Macal e North}{MACAL; NORTH}{2009}
-{MACAL, C.~M.; NORTH, M.~J. Agent-based modeling and simulation. In:
-  \textbf{Proceedings of the Winter Simulation Conference}. [S.l.: s.n.], 2009.
-  p. 86--98.}
-
 \end{thebibliography}
